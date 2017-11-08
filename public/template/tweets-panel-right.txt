@@ -1,0 +1,12 @@
+<div data-tweetid="{TWEETSID}" class="panel panel-default">
+	<div class="media loggedinuser-tweeets">
+		<div class="media-body text-right">
+			<span class="media-heading"><b>{USERNAME}</b></span>
+			<p style="padding:5px 0;">{TWEETSTEXT}</p>
+			<small class="timestamp-timeline text-muted">{TWEETSTIMESTAMP}</small>
+		</div>
+		<div class="media-right">
+			<img class="user-avatar-timeline media-object" src="uploads/avatars/{USERAVATAR}">
+		</div>
+	</div>
+</div>
